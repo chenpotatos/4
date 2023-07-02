@@ -8,7 +8,7 @@
  */
 
 /** 开启Debug模式 */
-define('__TYPECHO_DEBUG__', true);
+define('__TYPECHO_DEBUG__', false);
 
 /** 开启https */
 define('__TYPECHO_SECURE__',true);
