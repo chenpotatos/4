@@ -1,4 +1,6 @@
 <?php
+<?php GmLogin_Plugin::url('login'); //输出登陆url ?>
+<?php GmLogin_Plugin::url('register'); //输出注册url ?>
 /**
  * Typecho Blog Platform
  *
