@@ -53,4 +53,4 @@ Typecho_Db::set($db);
  *
  * Cravatar是Gravatar在中国的完美替代方案，你可以在https://cravatar.cn更新你的头像
  */
-define('__TYPECHO_GRAVATAR_PREFIX__', 'https://cdn.v2ex.com/gravatar/');
+define('__TYPECHO_GRAVATAR_PREFIX__', 'https://cravatar.cn/avatar/');
