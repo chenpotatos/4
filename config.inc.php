@@ -48,3 +48,9 @@ $db->addServer(array (
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
+/**
+ * 替换Gravatar头像为Cravatar头像
+ *
+ * Cravatar是Gravatar在中国的完美替代方案，你可以在https://cravatar.cn更新你的头像
+ */
+define('__TYPECHO_GRAVATAR_PREFIX__', 'https://cravatar.cn/avatar/');
